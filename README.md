@@ -45,11 +45,11 @@ Convolution Block 1 ---> Convolution Block 2 ---> Transition Block1--> Max Pooli
 
 Analysis:
 
-. In the terms of number of parameteres in descending orders :  Layer Normalization  > Batch Normalization == Group Normalization 
-. In terms of Training and Testing Curves we see that that when layer norm is used the models learns slowly , the training losses takes a bit longer than batch norm and 
-  group norm before it starts decreasing. Given that Layer Norm has more paramters to be trained on. The training loss falls steepest in  Group and Batch Norm. 
-. For this this data set and the defined model network, Group Normalization and Batch Normalization has similar metrics while the lowest was observed in the layer norm.
-. However if the look at the test loss curve , LayerNorm has mor smoother curve within minimal oscillations while compared to Batch and Group Norm.
+- In the terms of number of parameteres in descending orders :  Layer Normalization  > Batch Normalization == Group Normalization
+- In terms of Training and Testing Curves we see that that when layer norm is used the models learns slowly , the training losses takes a bit longer than batch norm and 
+  group norm before it starts decreasing. Given that Layer Norm has more paramters to be trained on. The training loss falls steepest in  Group and Batch Norm.
+- For this this data set and the defined model network, Group Normalization and Batch Normalization has similar metrics while the lowest was observed in the layer norm.
+- However if the look at the test loss curve , LayerNorm has mor smoother curve within minimal oscillations while compared to Batch and Group Norm.
 
 
 
